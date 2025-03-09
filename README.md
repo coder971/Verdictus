@@ -9,9 +9,9 @@ Frontend (React)
 	•	React.js – Main framework for the frontend
 	•	Tailwind CSS – For styling
 	•	React Router – For navigation between pages
-	•	Context API / Redux (possible) – For state management
+	•	State management
 	•	Axios / Fetch API – For making API calls
-	•	React Hooks – Likely used (useState, useEffect, etc.)
+	•	React Hooks – useState, useEffect, etc.
 
 Backend (Node.js & Express)[currently being developed]
 	•	Node.js – JavaScript runtime for the backend
