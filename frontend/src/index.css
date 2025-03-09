@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+.league-spartan-custom {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* Change this between 100-900 */
+  font-style: normal;
+}
+
+* {
+  font-family: "League Spartan", sans-serif;
+}
+
+.active hr {
+  display: block;
+}
+
+:root {
+  --tussock: #BD8D3D;
+  --woody-brown: #3B2E2A;
+  --quarter-spanish-white: #F4EDD8;
+  --millbrook: #574133;
+}
+
+/* Custom Background Color Classes Using CSS Variables */
+.bg-tussock {
+  background-color: var(--tussock);
+}
+
+.bg-woody-brown {
+  background-color: var(--woody-brown);
+}
+
+.bg-quarter-spanish-white {
+  background-color: var(--quarter-spanish-white);
+}
+
+.bg-millbrook {
+  background-color: var(--millbrook);
+}
+
+/* Custom Border Color Classes Using CSS Variables */
+.border-tussock {
+  border: 2px solid var(--tussock);
+}
+
+.border-b-tussock{
+  border-bottom: 2px solid var(--tussock);
+}
+
+.border-woody-brown {
+  border: 2px solid var(--woody-brown);
+}
+
+.border-b-woody-brown{
+  border-bottom: 2px solid var(--woody-brown);
+}
+
+.border-quarter-spanish-white {
+  border: 2px solid var(--quarter-spanish-white);
+}
+
+.border-millbrook {
+  border: 2px solid var(--millbrook);
+}
+
+.border-b-millbrook{
+  border-bottom: 2px solid var(--millbrook);
+}
+
+/* Hiding the Scrollbar */
+::-webkit-scrollbar {
+  @apply hidden;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in {
+  animation: slide-in 0.3s ease-out forwards;
+}
+
+/* In your CSS file */
+.my-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
