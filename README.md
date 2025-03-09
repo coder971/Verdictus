@@ -12,8 +12,11 @@ Verdictus is a legal consultation platform designed to connect clients with expe
 **See all screenshots in the full folder:**  
 [📂 Screenshots Folder](https://github.com/coder971/Verdictus/tree/main/Screenshots)
 
-## Project Status
-This project is currently ongoing. The frontend development has been completed for now, while backend and other features are still in progress.
+## Installation Guide:
+1. Install Node.js (if not installed)
+2. Vite Project Setup
+3. Project Cleanup and Setup
+4. Install and Configure Tailwind CSS
 
 ## Tech Stack
 Frontend (React)
@@ -67,11 +70,8 @@ Appointments & Payments [currently being developed]
 - Create Client/User Profile Page
 - Create Appointments Page for Users
 
-## Installation Guide:
-1. Install Node.js (if not installed)
-2. Vite Project Setup
-3. Project Cleanup and Setup
-4. Install and Configure Tailwind CSS
+## Project Status
+This project is currently ongoing. The frontend development has been completed for now, while backend and other features are still in progress.
 
 ## Contributing
 Since the project is still under development, contributions are welcome! Feel free to open an issue or submit a pull request.
