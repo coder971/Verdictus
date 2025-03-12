@@ -1,7 +1,7 @@
 # Verdictus
 Verdictus is a legal consultation platform designed to connect clients with experienced lawyers. The platform aims to streamline the process of finding and booking legal professionals for various legal matters.
 
-https://bit.ly/Verdictus
+Link: https://bit.ly/Verdictus
 
 ## Screenshots
 
