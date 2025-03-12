@@ -12,6 +12,14 @@ Verdictus is a legal consultation platform designed to connect clients with expe
 **See all screenshots in the full folder:**  
 [📂 Screenshots Folder](https://github.com/coder971/Verdictus/tree/main/Screenshots)
 
+## Features   
+- **Intuitive UI** – Clean and modern design with Tailwind CSS  
+- **Smooth Navigation** – Fast and seamless routing with React Router  
+- **Dynamic Components** – Reusable and interactive UI elements  
+- **State Management** – Efficient handling of UI state for a responsive experience  
+- **API Integration** – Fetch and display real-time data using Axios  
+- **Responsive Design** – Fully optimized for desktops, tablets, and mobile devices  
+
 ## Installation Guide:
 1. Install Node.js (if not installed)
 2. Vite Project Setup
@@ -19,43 +27,38 @@ Verdictus is a legal consultation platform designed to connect clients with expe
 4. Install and Configure Tailwind CSS
 
 ## Tech Stack
-Frontend (React)
-	•	React.js – Main framework for the frontend
-	•	Tailwind CSS – For styling
-	•	React Router – For navigation between pages
-	•	State management
-	•	Axios / Fetch API – For making API calls
-	•	React Hooks – useState, useEffect, etc.
 
-Backend (Node.js & Express)[currently being developed]
-	•	Node.js – JavaScript runtime for the backend
-	•	Express.js – Backend framework for building APIs
+### Frontend (React)
+- **React.js** – Main framework for the frontend  
+- **Tailwind CSS** – For styling  
+- **React Router** – For navigation between pages  
+- **State Management**  
+- **Axios** – For making API calls  
+- **React Hooks** – `useState`, `useEffect`, etc.  
 
-Database [currently being developed]
-	•	MongoDB – NoSQL database to store user and doctor data
-	•	Mongoose – ODM (Object-Document Mapping) for MongoDB
+### Backend (Node.js & Express) *(Currently being developed)*
+- **Node.js** – JavaScript runtime for the backend  
+- **Express.js** – Backend framework for building APIs  
 
-Authentication & Security [currently being developed]
-	•	JWT (JSON Web Token) – Likely used for authentication
-	•	Bcrypt.js – For password hashing (if implemented)
-	•	CORS – Handling cross-origin requests
+### Database *(Currently being developed)*
+- **MongoDB** – NoSQL database to store user and doctor data  
+- **Mongoose** – ODM (Object-Document Mapping) for MongoDB  
 
-Admin & Doctor Panel [currently being developed]
-	•	React for Frontend
-	•	Protected Routes – To restrict access to admin and doctor panels
-	•	API Integration – Fetching and updating data
+### Authentication & Security *(Currently being developed)*
+- **JWT (JSON Web Token)** – Likely used for authentication  
+- **Bcrypt.js** – For password hashing (if implemented)  
+- **CORS** – Handling cross-origin requests  
 
-Appointments & Payments [currently being developed]
-	•	CRUD API (Create, Read, Update, Delete) – Managing appointments
-	•	Stripe / Razorpay / PayPal – Likely used for online payments
-	•	Date-picker / Calendar Component – To manage bookings
+### Admin & Doctor Panel *(Currently being developed)*
+- **React** for Frontend  
+- **Protected Routes** – To restrict access to admin and doctor panels  
+- **API Integration** – Fetching and updating data  
+
+### Appointments & Payments *(Currently being developed)*
+- **CRUD API** (Create, Read, Update, Delete) – Managing appointments  
+- **Stripe / Razorpay / PayPal** – Likely used for online payments  
+- **Date-picker / Calendar Component** – To manage bookings  
  
-## Features
-- Browse and search for lawyers
-- Book and manage appointments
-- User authentication
-- Responsive design for seamless experience across devices
-
 ## Project Progress
 ### Completed
 
